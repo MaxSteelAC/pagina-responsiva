@@ -1,0 +1,132 @@
+body{
+    background-image: url(img/backround-minecraft.jpg);
+    background-repeat: no-repeat;
+    background-color: rgba(67%, 92%, 77%, 1);
+    background-size: cover;
+    overflow-y: auto;
+}
+
+#name-container h1{
+text-align: center;
+font-family: 'Minecraft', sans-serif;
+color: rgba(94%, 97%, 100%, 1);
+font-size: 110px;
+-webkit-text-stroke: 2px black;
+margin: 70px;
+}
+
+#video-container{
+    background-color: rgba(94%, 97%, 100%, 0.65);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#video-player{
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+}
+
+.video{
+    width: 100%;
+    height: 60vh;
+}
+
+.h2{
+    font-size: 45px;
+}
+
+#text{
+    height: 10%;
+    background-color: #f0f8ffc9;
+    padding: 30px;
+}
+
+#play-list{
+    width: 30%;
+    margin: 65px 0 0 0;
+}
+
+#list{
+    background-color: rgba(94%, 97%, 100%, 0.79);
+    width:305px; 
+    height:755px; 
+    overflow:auto;
+    list-style-type: none;
+    margin: 20px;
+    padding: 15px 0 0 0px;
+    display: inline-block;
+}
+
+#comments-container{
+    background-color:rgba(94%, 97%, 100%, 0.65);
+    height: 800px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    & h2{
+        font-family: 'Minecraft', sans-serif;
+        font-size: large;
+        margin: 30px;
+        padding: 30px;
+        text-align: center;
+    }
+}
+
+#text-comments{
+    width: 50%;
+    background: rgba(32%, 24%, 20%, 0.29);
+    margin: 20px;
+}
+
+#curiosities-container{
+    width: 50%;
+}
+img{
+   width: 120%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 340px 340px;
+    grid-template-rows: 330px 330px;
+
+    & #text-steve{
+        font-size: smaller;
+        font-family: 'Minecraf', sans-serif;
+        padding: 0 0 10px 80px;
+        text-align: start;
+        font-weight: bold;
+      }
+    
+      & #text-alex{
+        font-size: smaller;
+        font-family: 'Minecraf', sans-serif;
+        text-align: start;
+        padding: 20px 10px 10px 10px;
+      }
+}
+
+  #comment-box{
+    height: 100px;
+    padding: 30px;
+    background-color:rgba(94%, 97%, 100%, 1);
+    margin: 20px;
+  
+    & #comment-box-header{
+        display: flex;
+        height: 30%;
+        align-items: center;
+    
+        & img{
+            width: 40px;
+        }
+        
+        & h3{
+            padding: 0 15px 0 15px;
+        }
+    }
+}

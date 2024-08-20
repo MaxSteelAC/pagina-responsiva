@@ -1,0 +1,96 @@
+@media (min-width: 400px) and (max-width: 1024px){
+#name-container h1{
+    text-align: center;
+    font-family: 'Minecraft', sans-serif;
+    color: rgba(94%, 97%, 100%, 1);
+    font-size: 110px;
+    -webkit-text-stroke: 2px black;
+    margin: 0;
+    }
+#curiosities-container{
+    width: 100%;
+}
+img{
+    width: 100%;
+    margin-top: 50px;
+ }
+
+#video-container{
+    background-color: rgba(94%, 97%, 100%, 0.65);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+#video-player{
+    width: 95%;
+    height: 100%;
+    padding: 0;
+}
+#play-list{
+    width: 100%;
+    margin: 10px 0 0 0;
+    display: block;
+}
+
+#list{
+    background-color: rgba(94%, 97%, 100%, 0.79);
+    width:80%; 
+    height:170px; 
+    overflow:auto;
+    list-style-type: none;
+    margin: 20px;
+    padding: 15px 0 0 0px;
+    display: inline-flex;
+}
+#comments-container{
+    background-color:rgba(94%, 97%, 100%, 0.65);
+    height: 750px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+
+    & h2{
+        font-family: 'Minecraft', sans-serif;
+        font-size: 60px;
+        margin: 0px;
+        padding: 30px;
+        text-align: center;
+    }
+
+}
+#text-comments{
+    width: 100%;
+    background: rgba(32%, 24%, 20%, 0.29);
+    margin: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(32%, 24%, 20%, 0.29);
+
+& #text-steve{
+    font-size: medium;
+    font-family: 'Minecraf';
+    font-weight: 500;
+    width: 90%;
+    text-align: start;
+    padding: 0;
+  }
+
+& #text-alex{
+    font-size: medium;
+    font-family: 'Minecraf';
+    font-weight: 500;
+    width: 90%;
+    text-align: start;
+    padding: 0;
+}}
+
+
+}
